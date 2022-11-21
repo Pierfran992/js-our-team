@@ -13,8 +13,9 @@ body {
 /* main rules */
 .container {
     background-color: #EB6440;
-    color: #fff;
-    width: 60%;
+    color: #D6E4E5;
+    width: 80%;
+    max-width: 1440px;
     border-radius: 30px;
     margin: 100px auto;
     padding: 20px;
@@ -29,9 +30,22 @@ body {
     margin: 50px 0;
 }
 
-.ctn_info_membro {
-    padding: 5px 0;
-    margin-bottom: 10px;
-    border-top: solid 2px #497174;
-    border-bottom: solid 2px #497174;
+.row {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.slot {
+    width: calc((100% - 50px) / 3 );
+    padding: 10px;
+    background-color: #497174;
+    border-radius: 30px;
+    text-align: center;
+}
+
+.img_member {
+    width: 200px;
+    border-radius: 50%;
 }
