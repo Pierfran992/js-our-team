@@ -7,5 +7,31 @@
 }
 
 body {
-    background-color: blue;
+    background-color: #497174;
+}
+
+/* main rules */
+.container {
+    background-color: #EB6440;
+    color: #fff;
+    width: 60%;
+    border-radius: 30px;
+    margin: 100px auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.container > h1 {
+    color: #497174;
+}
+
+.container > p {
+    margin: 50px 0;
+}
+
+.ctn_info_membro {
+    padding: 5px 0;
+    margin-bottom: 10px;
+    border-top: solid 2px #497174;
+    border-bottom: solid 2px #497174;
 }

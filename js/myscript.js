@@ -51,7 +51,19 @@ for (let i = 0; i < membriTeam.length; i++){
 
 /* MILESTONE 2:
 Stampare le stesse informazioni su DOM sottoforma di stringhe */
+const ctnCardMembro = document.querySelector("div.container");
 
+for (let k = 0; k < membriTeam.length; k++){
+
+    let membroDom = membriTeam[k];
+
+    let ctnInfoMembro = createElement("div", "ctn_info_membro");
+
+    ctnInfoMembro.innerHTML = `Nome: ${membroDom.nome}, Ruolo: ${membroDom.ruolo}, Foto: ${membroDom.foto}.`;
+    
+    ctnCardMembro.appendChild(ctnInfoMembro);
+
+}
 
 
 
