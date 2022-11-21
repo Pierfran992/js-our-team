@@ -49,3 +49,10 @@ body {
     width: 200px;
     border-radius: 50%;
 }
+
+.name_member {
+    color: #EB6440;
+    font-size: 25px;
+    font-weight: 500;
+}
+
